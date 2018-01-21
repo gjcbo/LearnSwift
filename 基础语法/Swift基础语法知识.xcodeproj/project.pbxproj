@@ -23,6 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		491187D720149C4500568D74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		491187FF2014CA1400568D74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4974F8A820133B960039FCCE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4974F8AC20134F120039FCCE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		498E7AE42012FD840029C851 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		49BE42CF2013257800EC87AA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		49FAA7382012DA6E002EAC1E /* Swift基础语法知识 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift基础语法知识"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FAA73B2012DA6E002EAC1E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		49FAA7452012DADB002EAC1E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -40,9 +46,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491187FE2014CA0100568D74 /* 6数组的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				491187FF2014CA1400568D74 /* main.swift */,
+			);
+			path = "6数组的基本使用";
+			sourceTree = "<group>";
+		};
+		4974F8A720133B880039FCCE /* 3字符字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				4974F8A820133B960039FCCE /* main.swift */,
+			);
+			path = "3字符字符串";
+			sourceTree = "<group>";
+		};
+		4974F8A920134EEF0039FCCE /* 4字符串常用方法 */ = {
+			isa = PBXGroup;
+			children = (
+				4974F8AC20134F120039FCCE /* main.swift */,
+			);
+			path = "4字符串常用方法";
+			sourceTree = "<group>";
+		};
+		4974F8AD20134F400039FCCE /* 5运算符 */ = {
+			isa = PBXGroup;
+			children = (
+				491187D720149C4500568D74 /* main.swift */,
+			);
+			path = "5运算符";
+			sourceTree = "<group>";
+		};
+		498E7AE12012FD620029C851 /* 1基本数据类型 */ = {
+			isa = PBXGroup;
+			children = (
+				498E7AE42012FD840029C851 /* main.swift */,
+			);
+			path = "1基本数据类型";
+			sourceTree = "<group>";
+		};
+		49BE42CE2013256000EC87AA /* 2可选值 */ = {
+			isa = PBXGroup;
+			children = (
+				49BE42CF2013257800EC87AA /* main.swift */,
+			);
+			path = "2可选值";
+			sourceTree = "<group>";
+		};
 		49FAA72F2012DA6E002EAC1E = {
 			isa = PBXGroup;
 			children = (
+				498E7AE12012FD620029C851 /* 1基本数据类型 */,
+				49BE42CE2013256000EC87AA /* 2可选值 */,
+				4974F8A720133B880039FCCE /* 3字符字符串 */,
+				4974F8A920134EEF0039FCCE /* 4字符串常用方法 */,
+				4974F8AD20134F400039FCCE /* 5运算符 */,
+				491187FE2014CA0100568D74 /* 6数组的基本使用 */,
 				49FAA7462012DAF9002EAC1E /* Bool类型 */,
 				49FAA7422012DA8F002EAC1E /* 元组 */,
 				49FAA73A2012DA6E002EAC1E /* Swift基础语法知识 */,
