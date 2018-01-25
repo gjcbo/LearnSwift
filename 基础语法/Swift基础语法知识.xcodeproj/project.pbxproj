@@ -23,6 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4909D2BE201A25D0001D60C9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		490A682D2019AE7600A2AA29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		490A68422019D54500A2AA29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		490A68452019D90800A2AA29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		491187D720149C4500568D74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		491187FF2014CA1400568D74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		494409942015C5FD00A4CD71 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -56,6 +60,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4909D2BD201A25B4001D60C9 /* 19 构造方法 */ = {
+			isa = PBXGroup;
+			children = (
+				4909D2BE201A25D0001D60C9 /* main.swift */,
+			);
+			path = "19 构造方法";
+			sourceTree = "<group>";
+		};
+		490A682C2019AE6100A2AA29 /* 17 class 和 struct */ = {
+			isa = PBXGroup;
+			children = (
+				490A682D2019AE7600A2AA29 /* main.swift */,
+			);
+			path = "17 class 和 struct";
+			sourceTree = "<group>";
+		};
+		490A68412019D53500A2AA29 /* 18继承 */ = {
+			isa = PBXGroup;
+			children = (
+				490A68422019D54500A2AA29 /* main.swift */,
+			);
+			path = "18继承";
+			sourceTree = "<group>";
+		};
+		490A68432019D8BF00A2AA29 /* Swift关键字符号说明 */ = {
+			isa = PBXGroup;
+			children = (
+				490A68452019D90800A2AA29 /* main.swift */,
+			);
+			path = "Swift关键字符号说明";
+			sourceTree = "<group>";
+		};
 		491187FE2014CA0100568D74 /* 6数组的基本使用 */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +215,7 @@
 		49FAA72F2012DA6E002EAC1E = {
 			isa = PBXGroup;
 			children = (
+				490A68432019D8BF00A2AA29 /* Swift关键字符号说明 */,
 				498E7AE12012FD620029C851 /* 1基本数据类型 */,
 				49BE42CE2013256000EC87AA /* 2可选值 */,
 				4974F8A720133B880039FCCE /* 3字符字符串 */,
@@ -195,6 +232,9 @@
 				49999A0B201753F100483166 /* 14 函数参数 */,
 				49999A20201757BC00483166 /* 15 函数类型 */,
 				49FCD4F82018ADF000B59D94 /* 16 闭包 */,
+				490A682C2019AE6100A2AA29 /* 17 class 和 struct */,
+				490A68412019D53500A2AA29 /* 18继承 */,
+				4909D2BD201A25B4001D60C9 /* 19 构造方法 */,
 				49FAA7462012DAF9002EAC1E /* Bool类型 */,
 				49FAA7422012DA8F002EAC1E /* 元组 */,
 				49FAA73A2012DA6E002EAC1E /* Swift基础语法知识 */,
