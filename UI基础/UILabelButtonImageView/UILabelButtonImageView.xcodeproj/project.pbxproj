@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49715A5F202084BE00D47799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49715A5E202084BE00D47799 /* AppDelegate.swift */; };
+		49715A61202084BE00D47799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49715A60202084BE00D47799 /* ViewController.swift */; };
+		49715A64202084BE00D47799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49715A62202084BE00D47799 /* Main.storyboard */; };
+		49715A66202084BE00D47799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49715A65202084BE00D47799 /* Assets.xcassets */; };
+		49715A69202084BE00D47799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49715A67202084BE00D47799 /* LaunchScreen.storyboard */; };
+		49715A72202084C900D47799 /* 设置数据保险箱英文.png in Resources */ = {isa = PBXBuildFile; fileRef = 49715A70202084C800D47799 /* 设置数据保险箱英文.png */; };
+		49715A73202084C900D47799 /* 设置数据保险箱中文.png in Resources */ = {isa = PBXBuildFile; fileRef = 49715A71202084C900D47799 /* 设置数据保险箱中文.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49715A5B202084BE00D47799 /* UILabelButtonImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILabelButtonImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49715A5E202084BE00D47799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49715A60202084BE00D47799 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49715A63202084BE00D47799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49715A65202084BE00D47799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49715A68202084BE00D47799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49715A6A202084BE00D47799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49715A70202084C800D47799 /* 设置数据保险箱英文.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置数据保险箱英文.png"; sourceTree = "<group>"; };
+		49715A71202084C900D47799 /* 设置数据保险箱中文.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置数据保险箱中文.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49715A58202084BE00D47799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49715A52202084BE00D47799 = {
+			isa = PBXGroup;
+			children = (
+				49715A5D202084BE00D47799 /* UILabelButtonImageView */,
+				49715A5C202084BE00D47799 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49715A5C202084BE00D47799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49715A5B202084BE00D47799 /* UILabelButtonImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49715A5D202084BE00D47799 /* UILabelButtonImageView */ = {
+			isa = PBXGroup;
+			children = (
+				49715A70202084C800D47799 /* 设置数据保险箱英文.png */,
+				49715A71202084C900D47799 /* 设置数据保险箱中文.png */,
+				49715A5E202084BE00D47799 /* AppDelegate.swift */,
+				49715A60202084BE00D47799 /* ViewController.swift */,
+				49715A62202084BE00D47799 /* Main.storyboard */,
+				49715A65202084BE00D47799 /* Assets.xcassets */,
+				49715A67202084BE00D47799 /* LaunchScreen.storyboard */,
+				49715A6A202084BE00D47799 /* Info.plist */,
+			);
+			path = UILabelButtonImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49715A5A202084BE00D47799 /* UILabelButtonImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49715A6D202084BE00D47799 /* Build configuration list for PBXNativeTarget "UILabelButtonImageView" */;
+			buildPhases = (
+				49715A57202084BE00D47799 /* Sources */,
+				49715A58202084BE00D47799 /* Frameworks */,
+				49715A59202084BE00D47799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UILabelButtonImageView;
+			productName = UILabelButtonImageView;
+			productReference = 49715A5B202084BE00D47799 /* UILabelButtonImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49715A53202084BE00D47799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "关键词";
+				TargetAttributes = {
+					49715A5A202084BE00D47799 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49715A56202084BE00D47799 /* Build configuration list for PBXProject "UILabelButtonImageView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49715A52202084BE00D47799;
+			productRefGroup = 49715A5C202084BE00D47799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49715A5A202084BE00D47799 /* UILabelButtonImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49715A59202084BE00D47799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49715A73202084C900D47799 /* 设置数据保险箱中文.png in Resources */,
+				49715A69202084BE00D47799 /* LaunchScreen.storyboard in Resources */,
+				49715A72202084C900D47799 /* 设置数据保险箱英文.png in Resources */,
+				49715A66202084BE00D47799 /* Assets.xcassets in Resources */,
+				49715A64202084BE00D47799 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49715A57202084BE00D47799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49715A61202084BE00D47799 /* ViewController.swift in Sources */,
+				49715A5F202084BE00D47799 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49715A62202084BE00D47799 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49715A63202084BE00D47799 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49715A67202084BE00D47799 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49715A68202084BE00D47799 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49715A6B202084BE00D47799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49715A6C202084BE00D47799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49715A6E202084BE00D47799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UILabelButtonImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyuan.www.UILabelButtonImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49715A6F202084BE00D47799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UILabelButtonImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyuan.www.UILabelButtonImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49715A56202084BE00D47799 /* Build configuration list for PBXProject "UILabelButtonImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49715A6B202084BE00D47799 /* Debug */,
+				49715A6C202084BE00D47799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49715A6D202084BE00D47799 /* Build configuration list for PBXNativeTarget "UILabelButtonImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49715A6E202084BE00D47799 /* Debug */,
+				49715A6F202084BE00D47799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49715A53202084BE00D47799 /* Project object */;
+}
